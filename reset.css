@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", 'sams-serif'; 
+}
+
+body {
+    width: 100%;    /* largura e altura */
+    height: 100vh;
+
+    background-color: #333333;   /* cor de fundo */
+    color: #fff; /* cor da letra */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* coloca o titulo em cima e o roda pé la embaixo */
+}
+
+a {
+    text-decoration: none;       /* tira a linha dos links */
+}
+
+a img {
+    width: 30px;   /* tamanho dos simbolos das redes */
+    height: 30px;
+ }
+
+/*ESTILIZANDO O HEADER */
+
+header {
+    background-color: #222223;
+    padding: 25px; /* aumenta a largura da parte dev.milena */
+
+    display: flex; /* deixa o dev.milena e os simbolos em linha */
+    align-items: center; /* alinha os itens no centro da parte cinza*/
+    justify-content: space-between; /* coloca o dev.milena na esquerda e os simbolos direita */
+}
+
+header h1 {
+    font-size: 3.0em; /* aumenta o tamanho do dev.milena*/
+    font-weight: 200; /* deixa o dev.milena mais fino*/
+    cursor: pointer; /* muda o mouse quando passa em cima */
+}
+
+header nav {
+    display: flex; /* deixa alinhado*/
+    align-items: center; /* alinha horizontalmente*/
+}
+
+/* estiliza os links das redes*/
+header nav a {
+    margin-right: 1.1em; /* margem a direita*/
+    font-size: 1.2em; /* espaçamento entre os icones das redes */
+}
+
+header h1, a {
+    color: #00eff0;
+    transition: 0.2s ease-in-out;  /* transição quando passa o mouse nos simbolos */
+}
+
+header h1:hover, a:hover {
+    color: #fff;
+}
+
+/* ESTILIZANDO O RODA PÉ - FOOTER*/
+footer {
+    background-color: #222223;
+    padding: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer span {
+    font-size: 0.8em;
+    font-weight: 200;  /* peso da letra - largura*/
+}
