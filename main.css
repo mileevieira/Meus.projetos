@@ -61,7 +61,7 @@ main .techs .cards-container .card img {
 
 /* ESTILIZA OS LOGOS NO QUADRADO*/
 main .techs .cards-container .card:hover {
-    
+    box-shadow: 0px 0px 8px #00e0ff;
 }
 
 /*Minha imagem */
